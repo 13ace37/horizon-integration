@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Local todo-lists
+*.todo
+
+# Local WebStorm Files
+.idea/
+/output/map.txt
+/output/mapRank.txt
+/output/playerRank.txt
