@@ -4,7 +4,7 @@ module.exports = integration = {
     temp: {} // temp player data either send from the client or saved for later use
 };
 
-require(__dirname + "/src/lib/core/modules");
-require(__dirname + "/src/lib/core/server");
-require(__dirname + "/src/lib/core/getPlayerData");
-require(__dirname + "/src/lib/core/postPlayerData");
+require(require("path").join(require.main.path + "/src/lib/core/modules"));
+require(require("path").join(require.main.path + "/src/lib/core/server"));
+require(require("path").join(require.main.path + "/src/lib/core/getPlayerData"));
+require(require("path").join(require.main.path + "/src/lib/core/postPlayerData"));

@@ -12,6 +12,10 @@ integration.server.postPlayerData = function (data) {
 
     // todo: Remove hardcoded output - Add a format config instead
 
+    if(!integration.modules.fs.existsSync(require("path").join(require.main.path + "/output"))) {
+        integration.modules.fs.mkdirSync(require("path").join(require.main.path + "/output"));
+    }
+
     integration.modules.fs.writeFile(require("path").join(require.main.path + "/output/map.txt"), String(data.map), "utf8", function (error) {
        if (error) throw error;
     });

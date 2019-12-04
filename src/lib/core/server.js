@@ -26,4 +26,6 @@ integration.server.http = integration.modules.server.createServer(function (requ
     integration.server.handle(request, result);
 });
 
-integration.server.http.listen(5555, "127.0.0.1"); // todo: remove hardcoded port!
+integration.server.http.listen(23251, "127.0.0.1");
+
+console.log("Server running on port 23251");

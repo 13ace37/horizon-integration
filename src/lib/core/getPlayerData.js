@@ -31,8 +31,8 @@ integration.server.getPlayerData = function (result) {
         serverRank,
         finishedMaps,
         playerName: integration.data.playerData.player.name,
-        playerRank: integration.data.playerData.player.clan, // todo: Replace with N/A if not defined
-        playerNameFull: integration.data.playerData.player.clan + " " + integration.data.playerData.player.name //todo: Replace clan with N/A if not defined
+        playerRank: integration.data.playerData.player.clan || "N/A",
+        playerNameFull: (integration.data.playerData.player.clan || "N/A") + " " + integration.data.playerData.player.name
     };
     integration.server.postPlayerData(integration.data.finalPlayerData);
 };

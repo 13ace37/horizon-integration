@@ -1,0 +1,29 @@
+{
+  "name": "horizon-obs-integration",
+  "version": "1.0.0",
+  "description": "A player data integration for [HorizonServers]",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13ace37/horizon-obs-integration.git"
+  },
+  "keywords": [
+    "HorizonServers",
+    "OBS",
+    "CS:GO"
+  ],
+  "pkg": {
+    "scripts": "src/lib/core/*.js",
+    "assets": "src/lib/core/*.js"
+  },
+  "author": "Riccardo H.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/13ace37/horizon-obs-integration/issues"
+  },
+  "homepage": "https://github.com/13ace37/horizon-obs-integration#readme"
+}
