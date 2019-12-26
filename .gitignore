@@ -111,5 +111,5 @@ dist
 /output/map.txt
 /output/mapRank.txt
 /output/playerRank.txt
-*.exe
+horizon-integration*
 *.bat

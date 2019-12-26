@@ -12,10 +12,10 @@ This application only uses default/pre-installed node modules.
 
 ### Installation
 
-1. download [latest release](https://github.com/13ace37/horizon-obs-integration/releases) -  Currently work in progress use sourcecode instead.
+1. download [latest release](https://github.com/13ace37/horizon-obs-integration/releases)
 2. copy downloaded/cloned `gamestate_integration_horizon.cfg` into your `csgo\cfg\` folder.
     - if your game was running during this process, please restart it.
-3. launch downloaded `horizon-integration.exe` and join a horizon server - launch the sourcecode using `node index.js`.
+3. launch downloaded `horizon-integration` executable for your os and join a horizon server
     - this application may work on different servers, but it will provide invalid player data.
 
 ### Usage
