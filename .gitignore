@@ -111,3 +111,5 @@ dist
 /output/map.txt
 /output/mapRank.txt
 /output/playerRank.txt
+*.exe
+*.bat

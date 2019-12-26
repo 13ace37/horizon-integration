@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A player data integration for [HorizonServers]",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": "build.js",
   "scripts": {
     "test": "node index.js"
   },
@@ -16,10 +16,6 @@
     "OBS",
     "CS:GO"
   ],
-  "pkg": {
-    "scripts": "src/lib/core/*.js",
-    "assets": "src/lib/core/*.js"
-  },
   "author": "Riccardo H.",
   "license": "MIT",
   "bugs": {
