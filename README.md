@@ -1,7 +1,15 @@
-# horizon-integration
- 
-A player data integration for [HorizonServers](https://www.horizonservers.net/).
+<p align="center">
+    <img src=".images/logo-transparent.png" height="128" />
+    <h1>-# Horizon Integration #-</h1>
+    <strong>
+         <p align="center">
+              A player data integration for <a href="https://www.horizonservers.net/">HorizonServers</a>.
+         </p>
+    </strong><br><br>
+<br>
+</p>
 
+ 
 This application wasn't created in any cooperation with the [HorizonServers](https://www.horizonservers.net/) Staff! 
 If you have any questions, please contact me at discord [Ace#5393] or [steam](https://www.steamcommunity.com/id/main_tryhard)!
 
@@ -29,4 +37,4 @@ The application creates an `output` folder in the executable directory. This fol
     - mapRank.txt -> contains players maprank (24 || N/A if the player hasn't finished the map yet)
     - playerRank.txt -> contains players server rank (#1337 - Advanced ✪ || both N/A if player isn't ranked or no rank is availible)
     
-To add the data into your OBS or other recording/streaming software, simply add a text and let it read from these files.
+To add the data into your OBS or other recording/streaming software, simply add a text and let it read from these files. 
