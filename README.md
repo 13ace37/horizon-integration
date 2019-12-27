@@ -9,11 +9,10 @@
 <br>
 </p>
 
+---
  
 This application wasn't created in any cooperation with the [HorizonServers](https://www.horizonservers.net/) Staff! 
 If you have any questions, please contact me at discord [Ace#5393] or [steam](https://www.steamcommunity.com/id/main_tryhard)!
-
----
 
 ### Requirements
 
