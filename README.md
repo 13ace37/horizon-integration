@@ -40,7 +40,7 @@ The application creates an `output` folder in the executable directory. This fol
     
    - mapRank.txt:
    ```
-         current normal style maprank e.g 24
+         current normal style maprank e.g. 24
             can be N/A if the player hasn't finished the map yet
             also the maprank is limited at 1999 in that case the rank will stay at 1999+
    ```
