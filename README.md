@@ -1,6 +1,6 @@
 <p align="center">
     <img src=".images/logo-transparent.png" height="128" />
-    <h1>-# Horizon Integration #-</h1>
+    <h1 align="center">-# Horizon Integration #-</h1>
     <strong>
          <p align="center">
               A player data integration for <a href="https://www.horizonservers.net/">HorizonServers</a>.
