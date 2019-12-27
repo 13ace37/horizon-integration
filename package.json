@@ -1,5 +1,5 @@
 {
-  "name": "horizon-obs-integration",
+  "name": "horizon-integration",
   "version": "1.1.1",
   "description": "A player data integration for [HorizonServers]",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/13ace37/horizon-obs-integration.git"
+    "url": "git+https://github.com/13ace37/horizon-integration.git"
   },
   "keywords": [
     "HorizonServers",
@@ -19,7 +19,7 @@
   "author": "Riccardo H.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/13ace37/horizon-obs-integration/issues"
+    "url": "https://github.com/13ace37/horizon-integration/issues"
   },
-  "homepage": "https://github.com/13ace37/horizon-obs-integration#readme"
+  "homepage": "https://github.com/13ace37/horizon-integration#readme"
 }

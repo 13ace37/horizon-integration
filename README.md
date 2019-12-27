@@ -1,6 +1,9 @@
-# horizon-obs-integration
+# horizon-integration
  
 A player data integration for [HorizonServers](https://www.horizonservers.net/).
+
+This application wasn't created in any cooperation with the [HorizonServers](https://www.horizonservers.net/) Staff! 
+If you have any questions, please contact me at discord [Ace#5393] or [steam](https://www.steamcommunity.com/id/main_tryhard)!
 
 ---
 
@@ -12,7 +15,7 @@ This application only uses default/pre-installed node modules.
 
 ### Installation
 
-1. download [latest release](https://github.com/13ace37/horizon-obs-integration/releases)
+1. download [latest release](https://github.com/13ace37/horizon-integration/releases)
 2. copy downloaded/cloned `gamestate_integration_horizon.cfg` into your `csgo\cfg\` folder.
     - if your game was running during this process, please restart it.
 3. launch downloaded `horizon-integration` executable for your os and join a horizon server
