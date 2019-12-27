@@ -32,8 +32,22 @@ This application only uses default/pre-installed node modules.
 
 The application creates an `output` folder in the executable directory. This folder contains 3 files:
     
-    - map.txt -> contains mapname (surf_mesa_fix)
-    - mapRank.txt -> contains players maprank (24 || N/A if the player hasn't finished the map yet)
-    - playerRank.txt -> contains players server rank (#1337 - Advanced ✪ || both N/A if player isn't ranked or no rank is availible)
+   - map.txt:
+   ```
+      current mapname e.g. surf_mesa_fix
+        can be N/A if the player ins't connected to any server
+   ```
     
-To add the data into your OBS or other recording/streaming software, simply add a text and let it read from these files. 
+   - mapRank.txt:
+   ```
+         current normal style maprank e.g 24
+            can be N/A if the player hasn't finished the map yet
+            also the maprank is limited at 1999 in that case the rank will stay at 1999+
+   ```
+    
+   - playerRank.txt:
+   ```
+         current players numeric and text server rank e.g. #1337 - Advanced ✪ 
+            both can be N/A if either the server isn't providing the rank or the player isn't ranked yet
+   ```
+   
