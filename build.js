@@ -59,9 +59,10 @@ integration.server.getPlayerData = function (result) {
     let finishedMaps = "N/A";
 
     if (integration.data.playerData.player.match_stats) {
-        if (integration.data.playerData.player.match_stats.deaths && integration.data.playerData.player.match_stats.deaths > 0) mapRank = integration.data.playerData.player.match_stats.deaths;
+        if (integration.data.playerData.player.match_stats.deaths && integration.data.playerData.player.match_stats.deaths > 0) mapRank = String(integration.data.playerData.player.match_stats.deaths);
         if (integration.data.playerData.player.match_stats.kills && integration.data.playerData.player.match_stats.kills > 0) finishedMaps = integration.data.playerData.player.match_stats.kills;
         if (integration.data.playerData.player.match_stats.score && integration.data.playerData.player.match_stats.score < 0 && integration.data.playerData.player.match_stats.score !== -99999) serverRank = String(integration.data.playerData.player.match_stats.score).slice(1);
+        if (mapRank === "1999") mapRank = "1999+";
     }
 
     if (integration.data.playerData.map) {
